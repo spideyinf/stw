@@ -1,0 +1,33 @@
+table {
+  border-spacing: 0 !important;
+  padding: 2rem 0;
+  font-size: 14px;
+  margin-top: 1rem;
+}
+
+thead {
+  color: white;
+  background-color: #F05E23;
+  text-align: left;
+}
+
+th {
+  text-transform: capitalize !important;
+}
+
+th,
+td {
+  padding: 0.5rem 1rem !important;
+}
+
+td:first-child{
+  font-weight: bold;
+}
+
+table,
+thead,
+th,
+td,
+tr {
+  border: none;
+}
